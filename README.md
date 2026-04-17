@@ -37,4 +37,7 @@ chmod +x install.sh
 ./install.sh
 
 # Start a full scan
+
+python3 gh0stfind3r.py
+
 python3 gh0stfind3r.py -u https://target.com --full
