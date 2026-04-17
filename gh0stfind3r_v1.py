@@ -73,7 +73,7 @@ def print_banner():
 ╚═╝     ╚═╝╚═╝  ╚═══╝╚═════╝ ╚═════╝ ╚═╝  ╚═╝{C.RESET}
 
 {C.YELLOW}╔══════════════════════════════════════════════════════════╗{C.RESET}
-{C.YELLOW}║  {C.WHITE}{C.BOLD}gh0stfind3r v3.0{C.RESET}{C.YELLOW}  |  {C.GREEN}By GHOST BEROK{C.YELLOW}               ║{C.RESET}
+{C.YELLOW}║  {C.WHITE}{C.BOLD}gh0stfind3r v1.0{C.RESET}{C.YELLOW}  |  {C.GREEN}By GHOST BEROK{C.YELLOW}               ║{C.RESET}
 {C.YELLOW}║  {C.CYAN}20+ Module Automated Bug Bounty Framework{C.YELLOW}            ║{C.RESET}
 {C.YELLOW}║  {C.MAGENTA}Use only on authorized targets. Ethical hacking only.{C.YELLOW} ║{C.RESET}
 {C.YELLOW}╚══════════════════════════════════════════════════════════╝{C.RESET}
@@ -1522,7 +1522,7 @@ def generate_report(target_url, domain, ip, output_dir):
 
     with open(rf, "w") as f:
         f.write("=" * 70 + "\n")
-        f.write("   gh0stfind3r v3.0 — Bug Bounty Report\n")
+        f.write("   gh0stfind3r v1.0 — Bug Bounty Report\n")
         f.write(f"   Author    : GHOST BEROK\n")
         f.write(f"   Date      : {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
         f.write(f"   Target    : {target_url}\n")
@@ -3068,7 +3068,7 @@ def main():
     global LOG_FILE
 
     parser = argparse.ArgumentParser(
-        description="gh0stfind3r v3.0 — Automated Bug Bounty Hunting Tool by GHOST BEROK",
+        description="gh0stfind3r v1.0 — Automated Bug Bounty Hunting Tool by GHOST BEROK",
         formatter_class=argparse.RawTextHelpFormatter,
         epilog="""
 Examples:
